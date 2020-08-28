@@ -1,0 +1,12 @@
+.box {
+  height: 300;
+  width: 250;
+  background-color: lightgray;
+}
+
+.mg-fluid {
+  height: 250;
+  width: 350;
+}
+
+/* background-color: rgb(55, 169, 173); */
