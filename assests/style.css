@@ -1,12 +1,29 @@
-.box {
-  height: 300;
-  width: 250;
-  background-color: lightgray;
+body {
+  background-image: url(./ignasi_pattern_s.png);
 }
 
-.mg-fluid {
-  height: 250;
-  width: 350;
+.navbar-brand {
+  background-color: rgb(74, 170, 165);
 }
 
-/* background-color: rgb(55, 169, 173); */
+.container {
+  padding-top: 70px;
+  float: left;
+}
+
+.display-4 {
+  color: rgb(74, 170, 165);
+  font-weight: 550;
+  font-family: serif, "Times New Roman", Times;
+}
+
+.background {
+  background-color: white;
+}
+
+#name {
+  color: white;
+  font-family: serif, "Times New Roman", Times;
+  font-weight: 600;
+  font-size: 170%;
+}
