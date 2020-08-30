@@ -2,6 +2,10 @@ body {
   background-image: url(./ignasi_pattern_s.png);
 }
 
+form {
+  padding-right: 50px;
+}
+
 .navbar-brand {
   background-color: rgb(74, 170, 165);
 }
