@@ -25,6 +25,14 @@ form {
   background-color: white;
 }
 
+.footer {
+  background-color: rgb(74, 170, 165);
+}
+
+.mt-auto {
+  margin-top: auto !important;
+}
+
 #name {
   color: white;
   font-family: serif, "Times New Roman", Times;
