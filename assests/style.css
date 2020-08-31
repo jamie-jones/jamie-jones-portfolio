@@ -1,34 +1,37 @@
+/* This makes the background of all pages the same design, which is a url. */
 body {
   background-image: url(./ignasi_pattern_s.png);
 }
 
+/* This pads the form in Contacts the way it needs to be. */
 form {
   padding-right: 50px;
 }
 
+/* This turns the navbar around the name the color it needs to be. */
 .navbar-brand {
   background-color: rgb(74, 170, 165);
 }
 
+/* This spaces out the container the correct way that it needs to be, as well as floats it to the left just as it needs to be. */
 .container {
   padding-top: 70px;
   float: left;
 }
 
+/* This gives the title of the pages the values I need them to be. */
 .display-4 {
   color: rgb(74, 170, 165);
   font-weight: 550;
   font-family: serif, "Times New Roman", Times;
 }
 
+/* this turns the jumbotron background white. */
 .background {
   background-color: white;
 }
 
-.flo-left {
-  float: left;
-}
-
+/* Making the name an ID gives my values priority over the Bootstrap ones */
 #name {
   color: white;
   font-family: serif, "Times New Roman", Times;
@@ -36,6 +39,7 @@ form {
   font-size: 170%;
 }
 
+/* The About Me image floats left and the margins gives a space between the image and the paragraph that frames it. */
 #float-left {
   float: left;
   margin-right: 3%;
