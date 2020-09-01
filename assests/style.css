@@ -10,11 +10,6 @@ body {
   flex-direction: column;
 }
 
-/* This pads the form in Contacts the way it needs to be. */
-/* form {
-  padding-right: 50px;
-} */
-
 /* This is the default of a flex value. */
 .content {
   flex: 1 0 auto;
