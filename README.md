@@ -26,6 +26,8 @@ Credit to the background design of the pages is given to the Coding Bootcamp ins
 
 Here's what the site looks like!
 
+Official site: https://jamjon94.github.io/jamie-jones-my-portfolio/index.html
+
 ![AboutMe](About-me.png "About Me Page")
 
 ![Portfolio](Portfolio-page.png "Portfolio Page")
