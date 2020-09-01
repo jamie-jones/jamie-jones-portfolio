@@ -15,6 +15,7 @@ body {
   padding-right: 50px;
 } */
 
+/* This is the default of a flex value. */
 .content {
   flex: 1 0 auto;
 }
@@ -42,6 +43,17 @@ body {
   background-color: white;
 }
 
+/* The sticky footer is done with flexbox */
+.footer {
+  background-color: rgb(66, 66, 66);
+  color: #c6ece6;
+  text-align: center;
+  font-size: 140%;
+  padding: 20px;
+  border-top: 10px solid rgb(74, 170, 165);
+  flex-shrink: 0;
+}
+
 /* Making the name an ID gives my values priority over the Bootstrap ones */
 #name {
   color: white;
@@ -57,12 +69,7 @@ body {
   margin-bottom: 3%;
 }
 
-.footer {
-  background-color: rgb(66, 66, 66);
-  color: #c6ece6;
-  text-align: center;
-  font-size: 140%;
-  padding: 20px;
-  border-top: 10px solid rgb(74, 170, 165);
-  flex-shrink: 0;
+/* making a button ID will prioritize the background color of my choosing. */
+#button {
+  background-color: rgb(74, 170, 165);
 }
