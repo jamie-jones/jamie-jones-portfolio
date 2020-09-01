@@ -1,11 +1,22 @@
+html,
+body {
+  height: 100%;
+}
+
 /* This makes the background of all pages the same design, which is a url. */
 body {
   background-image: url(./ignasi_pattern_s.png);
+  display: flex;
+  flex-direction: column;
 }
 
 /* This pads the form in Contacts the way it needs to be. */
-form {
+/* form {
   padding-right: 50px;
+} */
+
+.content {
+  flex: 1 0 auto;
 }
 
 /* This turns the navbar around the name the color it needs to be. */
@@ -44,4 +55,14 @@ form {
   float: left;
   margin-right: 3%;
   margin-bottom: 3%;
+}
+
+.footer {
+  background-color: rgb(66, 66, 66);
+  color: #c6ece6;
+  text-align: center;
+  font-size: 140%;
+  padding: 20px;
+  border-top: 10px solid rgb(74, 170, 165);
+  flex-shrink: 0;
 }
