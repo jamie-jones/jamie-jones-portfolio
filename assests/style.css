@@ -5,9 +5,13 @@ body {
 
 /* This makes the background of all pages the same design, which is a url. */
 body {
-  background-image: url(./ignasi_pattern_s.png);
+  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
+}
+
+p {
+  color: white;
 }
 
 /* This is the default of a flex value. */
@@ -16,8 +20,8 @@ body {
 }
 
 /* This turns the navbar around the name the color it needs to be. */
-.navbar-brand {
-  background-color: rgb(74, 170, 165);
+.navbar {
+  background-color: rgb(26, 40, 165) !important;
 }
 
 /* This spaces out the container the correct way that it needs to be, as well as floats it to the left just as it needs to be. */
@@ -28,24 +32,24 @@ body {
 
 /* This gives the title of the pages the values I need them to be. */
 .display-4 {
-  color: rgb(74, 170, 165);
+  color: rgb(26, 40, 165);
   font-weight: 550;
   font-family: serif, "Times New Roman", Times;
 }
 
 /* this turns the jumbotron background white. */
 .background {
-  background-color: white;
+  background-image: url(./wood-background-1.jpg);
 }
 
 /* The sticky footer is done with flexbox */
 .footer {
   background-color: rgb(66, 66, 66);
-  color: #c6ece6;
+  color: whitesmoke;
   text-align: center;
   font-size: 140%;
   padding: 20px;
-  border-top: 10px solid rgb(74, 170, 165);
+  border-top: 10px solid rgb(26, 40, 165);
   flex-shrink: 0;
 }
 
@@ -66,5 +70,11 @@ body {
 
 /* making a button ID will prioritize the background color of my choosing. */
 #button {
-  background-color: rgb(74, 170, 165);
+  background-color: rgb(26, 40, 165);
+}
+
+#name,
+#email,
+#message {
+  color: whitesmoke;
 }
