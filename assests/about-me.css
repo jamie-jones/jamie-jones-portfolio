@@ -3,15 +3,20 @@ body {
   height: 100%;
 }
 
-/* This makes the background of all pages the same design, which is a url. */
 body {
-  background-color: whitesmoke;
+  background-image: url(./butterfly-mushrooms-forest.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   display: flex;
   flex-direction: column;
 }
 
-p {
-  color: white;
+p,
+a {
+  color: rgb(240, 230, 187);
+  text-shadow: 2px 2px 3px rgb(4, 25, 56);
 }
 
 /* This is the default of a flex value. */
@@ -21,7 +26,7 @@ p {
 
 /* This turns the navbar around the name the color it needs to be. */
 .navbar {
-  background-color: rgb(26, 40, 165) !important;
+  background-color: rgb(4, 25, 56) !important;
 }
 
 /* This spaces out the container the correct way that it needs to be, as well as floats it to the left just as it needs to be. */
@@ -32,30 +37,29 @@ p {
 
 /* This gives the title of the pages the values I need them to be. */
 .display-4 {
-  color: rgb(26, 40, 165);
+  color: rgb(255, 255, 255);
   font-weight: 550;
   font-family: serif, "Times New Roman", Times;
 }
 
 /* this turns the jumbotron background white. */
 .background {
-  background-image: url(./wood-background-1.jpg);
+  /* background-color: rgb(35, 116, 218, 0.4); */
+  background: linear-gradient(to bottom, transparent, rgb(35, 116, 218, 0.6));
 }
 
 /* The sticky footer is done with flexbox */
 .footer {
-  background-color: rgb(66, 66, 66);
-  color: whitesmoke;
+  color: rgb(240, 230, 187);
   text-align: center;
   font-size: 140%;
   padding: 20px;
-  border-top: 10px solid rgb(26, 40, 165);
   flex-shrink: 0;
 }
 
 /* Making the name an ID gives my values priority over the Bootstrap ones */
 #name {
-  color: white;
+  color: rgb(240, 230, 187);
   font-family: serif, "Times New Roman", Times;
   font-weight: 600;
   font-size: 170%;
@@ -66,15 +70,4 @@ p {
   float: left;
   margin-right: 3%;
   margin-bottom: 3%;
-}
-
-/* making a button ID will prioritize the background color of my choosing. */
-#button {
-  background-color: rgb(26, 40, 165);
-}
-
-#name,
-#email,
-#message {
-  color: whitesmoke;
 }
