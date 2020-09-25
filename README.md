@@ -12,7 +12,7 @@ As you make the window smaller and smaller, you will notice that the pages follo
 
 Contact Page:
 
-![Contact](contact.png "Contact Page")
+![Contact](./assets/contact.jpg "Contact Page")
 
 ## Credits
 
@@ -28,9 +28,9 @@ Here's what the site looks like!
 
 Official site: https://jamjon94.github.io/jamie-jones-portfolio/
 
-![AboutMe](about.png "About Me Page")
+![AboutMe](./assets/about.png "About Me Page")
 
-![Portfolio](portfolio.png "Portfolio Page")
+![Portfolio](./assets/portfolio.png "Portfolio Page")
 
 ## License
 
