@@ -5,7 +5,7 @@ body {
 
 /* This makes the background of all pages the same design, which is a url. */
 body {
-  background-image: url(./two-mushrooms-being-cute.jpg);
+  background-image: url(./assets/two-mushrooms-being-cute.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
